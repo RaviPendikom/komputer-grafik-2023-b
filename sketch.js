@@ -11,4 +11,5 @@ function draw() {
   noStroke();
   fill(46, 198, 89);
   circle(x, y, radius);
+  radius += 2;
 }
