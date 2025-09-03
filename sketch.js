@@ -1,15 +1,14 @@
-let x = 300;
-let y = 300;
-let radius = 150;
+// let x = random(600);
+// let y = random(600);
+// let radius = random(300);
 
 function setup() {
   createCanvas(600, 600);
+  background(145, 89, 78);
 }
 
 function draw() {
-  background(145, 89, 78);
   noStroke();
-  fill(46, 198, 89);
-  circle(x, y, radius);
-  radius += 2;
+  fill(random(255), random(255), random(255), random(255));
+  circle(random(600), random(600), random(100));
 }
